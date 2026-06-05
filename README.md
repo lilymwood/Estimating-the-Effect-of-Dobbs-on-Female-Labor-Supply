@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a sample of code from my honors thesis in Economics at Tulane University, which was awarded Best Honors Thesis in Economics.
+This repository contains a sample of code from my honors thesis in Economics at Tulane University, "Estimating the Effect of Dobbs on Female Labor Supply," which was awarded Best Honors Thesis in Economics.
 
 The project examines the effect of changes in reproductive policy following the Dobbs decision on female labor force participation. The analysis uses a difference-in-differences framework and public economic and health data.
 
