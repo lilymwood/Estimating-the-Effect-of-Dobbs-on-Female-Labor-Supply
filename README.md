@@ -1,10 +1,12 @@
-# Coding Sample: Estimating the Effect of Dobbs on Female Labor Supply
+# Estimating the Effect of *Dobbs* on Female Labor Supply
 
-## Overview
+**Undergraduate Honors Thesis in Economics · Tulane University**
 
-This repository contains a sample of code from my honors thesis in Economics at Tulane University, "Estimating the Effect of Dobbs on Female Labor Supply," which was awarded Best Honors Thesis in Economics.
+This project examines the effect of post-*Dobbs* abortion restrictions on female labor force participation in the United States. Using microdata from the Current Population Survey's Annual Social and Economic Supplement (ASEC), I employ a difference-in-differences design to estimate changes in labor force participation following the implementation of state "trigger laws."
 
-The project examines the effect of changes in reproductive policy following the Dobbs decision on female labor force participation. The analysis uses a difference-in-differences framework and public economic and health data.
+I find no statistically significant effect on female labor force participation in the post-*Dobbs* period. The results are robust to alternative specifications, including a continuous measure of state gestational limits.
+
+### [📄 Read the full thesis](Wood%2C%20Lily-%20Honors%20Thesis.pdf)
 
 ## Repository Contents
 
@@ -17,17 +19,6 @@ The project examines the effect of changes in reproductive policy following the 
 * `Robustness.do` — Runs robustness and heterogeneity checks.
 * `EventStudy.do` — Estimates and plots event-study models.
 
-## Methods Demonstrated
-
-* Data cleaning and preparation
-* Dataset merging and management
-* Variable construction and rescaling
-* Difference-in-differences estimation
-* Regression analysis
-
-## Note on Data
-
-The underlying datasets are not included in this repository. The code is provided as a representative sample of my analytical and programming work.
 
 ## Software
 
