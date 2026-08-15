@@ -6,7 +6,23 @@ This project examines the effect of post-*Dobbs* abortion restrictions on female
 
 I find no statistically significant effect on female labor force participation in the post-*Dobbs* period. The results are robust to alternative specifications, including a continuous measure of state gestational limits.
 
-### [📄 Read the full thesis](Wood%2C%20Lily-%20Honors%20Thesis.pdf)
+### [📄 Honors Thesis](Lily-Wood-Honors-Thesis.pdf)
+
+
+## Replication Code
+
+This repository contains the Stata code used to produce the empirical analysis in the thesis.
+
+| File                            | Description                                 |
+| ------------------------------- | ------------------------------------------- |
+| `SetUp.do`                      | Data preparation and sample construction    |
+| `SummaryStatistics.do`          | Summary statistics                          |
+| `Regression.do`                 | Main difference-in-differences estimates    |
+| `EventStudy.do`                 | Event-study analysis                        |
+| `Robustness.do`                 | Robustness checks                           |
+| `GestationalLimitRegression.do` | Alternative gestational-limit specification |
+| `AbortionIncidence.do`          | Analysis using abortion incidence           |
+
 
 ## Repository Contents
 
