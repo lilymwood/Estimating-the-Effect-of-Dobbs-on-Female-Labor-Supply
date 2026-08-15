@@ -1,10 +1,25 @@
 # Estimating the Effect of *Dobbs* on Female Labor Supply
 
-**Undergraduate Honors Thesis in Economics · Tulane University**
+**Senior Honors Thesis in Economics · Tulane University**
 
-This project studies female labor force participation following the Dobbs v. Jackson Women’s Health Organization decision and the resulting state-level variation in reproductive policy. Using microdata from the Current Population Survey’s Annual Social and Economic Supplement (ASEC), I apply a difference-in-differences design to compare changes in labor force participation across states with and without “trigger laws.”
+Leveraging cross-state variation in reproductive policy, I designed a difference-in-differences analysis to estimate the effect of *Dobbs v. Jackson Women’s Health Organization* on female labor supply.
 
-The results show no statistically significant change in female labor force participation associated with the implementation of trigger laws. I extend the analysis by considering state gestational limits as a continuous measure of abortion access.
+### Data
+
+The analysis uses individual-level microdata from the **Current Population Survey Annual Social and Economic Supplement (CPS ASEC)**, paired with state-level information on abortion policy following *Dobbs*.
+
+### Empirical Approach
+
+I compare changes in female labor force participation across states with and without trigger laws before and after the *Dobbs* decision. I also use state gestational limits as a continuous measure of abortion access and conduct a series of robustness checks.
+
+### Findings
+
+I find no statistically significant change in female labor force participation associated with the implementation of trigger laws during the period studied.
+
+### Recognition
+
+**Best Honors Thesis in Economics**
+Tulane University Department of Economics
 
 ### [📄 Honors Thesis](Lily-Wood-Honors-Thesis.pdf)
 
@@ -13,7 +28,7 @@ The results show no statistically significant change in female labor force parti
 | File                            | Description                                 |
 | ------------------------------- | ------------------------------------------- |
 | `SetUp.do`                      | Data preparation and sample construction    |
-| `Regression.do`                 | Main regression analysis                    |
+| `Regression.do`                 | Main difference-in-differences analysis     |
 | `Robustness.do`                 | Robustness checks                           |
 | `EventStudy.do`                 | Event-study analysis                        |
 | `AbortionIncidence.do`          | Analysis using abortion incidence           |
