@@ -4,6 +4,8 @@
 
 This project studies female labor force participation following the Dobbs v. Jackson Women’s Health Organization decision and the resulting state-level variation in reproductive policy. Using microdata from the Current Population Survey’s Annual Social and Economic Supplement (ASEC), I apply a difference-in-differences design to compare changes in labor force participation across states with and without “trigger laws.”
 
+The results show no statistically significant change in female labor force participation associated with the implementation of trigger laws. I extend the analysis by considering state gestational limits as a continuous measure of abortion access.
+
 ### [📄 Honors Thesis](Lily-Wood-Honors-Thesis.pdf)
 
 ## Repository Contents
